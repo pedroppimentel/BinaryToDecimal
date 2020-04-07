@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 50%;
+    padding: 96px;
+    background: #f0f078;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.input {
+    align-content: center;
+    margin-top: 5px;
+}
+
+.btn-calc {
+    margin: 0 auto 0 0;
+    height: auto;
+    height: 25%;    
+    background-color: #000000;
+}
+
+.btn-calc p {
+    transform: rotate(-90deg);
+    font-weight: bold;
+    color: white;
+}
+
